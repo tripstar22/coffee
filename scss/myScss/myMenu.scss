@@ -1,0 +1,120 @@
+
+/*================================
+=            STANDARD            =
+================================*/
+
+#homePage .theMenu {
+	padding: 20px 0 20px 20px;
+
+	.menuHeader {
+		padding-left: 0;
+	}
+
+	.theSections {
+		width: 100%;
+	}
+
+	.menuSection {
+		// padding-right: 0;
+
+		h3 {
+			font-family: $holtwood;
+			color: $textColor;
+			padding-bottom: 8px;
+			border-bottom: 1px dotted $textColor;
+			margin: 20px 0;
+		}
+	}
+
+	.menuItem {
+		list-style: none;
+		margin-right: 20px;
+
+		.itemName {
+			color: $textColor;
+			font-size: 18px;
+		}
+
+		.itemDetails {
+			color: $tan;
+		}
+	}
+}
+
+/*-----  End of STANDARD  ------*/
+
+
+
+
+/*=======================================
+=            MIN-WIDTH 768px            =
+=======================================*/
+
+@media screen and (min-width: 768px) {
+
+	#homePage .theMenu {
+
+
+		h2 {
+			font-family: $holtwood;
+			color: $textColor;
+			text-align: center;
+			border-bottom: 1px solid $textColor;
+			padding-bottom: 8px;
+		}
+	}
+
+}
+
+/*-----  End of MIN-WIDTH 768px  ------*/
+
+
+
+
+/*=======================================
+=            MIN-WIDTH 58.75em            =
+=======================================*/
+
+@media screen and (min-width: 58.75em) {
+
+	#homePage .theMenu .menuSection h3 {
+		border-bottom: none;
+	}
+}
+
+/*-----  End of MIN-WIDTH 58.75em  ------*/
+
+
+
+
+
+
+/*========================================
+=            MIN-WIDTH 1280px            =
+========================================*/
+
+@media screen and (min-width: 1280px) {
+
+}
+
+/*-----  End of MIN-WIDTH 1280px  ------*/
+
+
+
+
+/*========================================
+=            MIN-WIDTH 1440px            =
+========================================*/
+
+@media screen and (min-width: 1440px) {
+
+}
+
+/*-----  End of MIN-WIDTH 1440px  ------*/
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+
+/*================================
+=            STANDARD            =
+================================*/
+
+#homePage {
+	background: url(../img/bg-dark.jpg);
+	width: 100%;
+	background-size: cover;
+	background-position: 50% 0;
+	background-repeat: no-repeat no-repeat;
+
+
+	.mobileHeader {
+		position: relative;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+#homePage .mobileHeader .mobileHeroInfo {
+	position: absolute;
+	top: 5%;
+	right: 0;
+	background: rgba(17,17,17,0.8);
+	padding: 15px 25px 20px;
+
+	p {
+		color: $textColor;
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+	.hoursOpen {
+		font-size: 22px;
+		padding-bottom: 5px;
+	}
+}
+
+#homePage .mobileHeader .mobileLocation {
+	padding: 5px 40px;
+	text-align: center;
+	background: #fff;
+	color: #111;
+	position: absolute;
+	right: 0;
+	top: 131px;
+
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	-ms-border-radius: 7px;
+	border-radius: 7px;
+
+	img {
+		display: inline;
+	}
+
+	.location {
+		color: #111;
+		display: inline;
+	}
+}
+
+/*-----  End of STANDARD  ------*/
+
+
+
+
+/*=======================================
+=            MIN-WIDTH 768px            =
+=======================================*/
+
+@media screen and (min-width: 768px) {
+
+}
+
+/*-----  End of MIN-WIDTH 768px  ------*/
+
+
+
+
+/*=======================================
+=            MIN-WIDTH 58.75em            =
+=======================================*/
+
+@media screen and (min-width: 58.75em) {
+
+}
+
+/*-----  End of MIN-WIDTH 58.75em  ------*/
+
+
+
+
+
+
+/*========================================
+=            MIN-WIDTH 1280px            =
+========================================*/
+
+@media screen and (min-width: 1280px) {
+
+}
+
+/*-----  End of MIN-WIDTH 1280px  ------*/
+
+
+
+
+/*========================================
+=            MIN-WIDTH 1440px            =
+========================================*/
+
+@media screen and (min-width: 1440px) {
+
+}
+
+/*-----  End of MIN-WIDTH 1440px  ------*/
+
+
+
+
+
+
+

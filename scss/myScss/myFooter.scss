@@ -1,0 +1,126 @@
+
+/*================================
+=            STANDARD            =
+================================*/
+
+footer {
+
+
+	h4 a {
+		font-family: $lobster;
+		color: $textColor;
+		text-shadow: 2px 2px $myLightBrown;
+		font-size: 30px;
+		padding-bottom: 30px;
+
+
+		&:hover {
+			color: $textColor;
+		}
+	}
+
+	.footerAddress {
+		list-style: none;
+
+
+		li {
+			color: $textColor;
+			font-size: 12px;
+		}
+	}
+}
+
+/*-----  End of STANDARD  ------*/
+
+
+
+
+/*=======================================
+=            MIN-WIDTH 768px            =
+=======================================*/
+
+@media screen and (min-width: 768px) {
+
+	footer {
+
+
+		ul {
+			margin-top: 10px;
+		}
+
+
+		.footerContact {
+			list-style: none;
+			margin-left: 20px;
+
+
+			li {
+				color: $textColor;
+				font-size: 12px;
+			}
+
+			li a {
+				color: $tan;
+
+
+				&:hover {
+					text-decoration: underline;
+				}
+
+				&:active {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
+/*-----  End of MIN-WIDTH 768px  ------*/
+
+
+
+
+/*=======================================
+=            MIN-WIDTH 58.75em            =
+=======================================*/
+
+@media screen and (min-width: 58.75em) {
+
+}
+
+/*-----  End of MIN-WIDTH 58.75em  ------*/
+
+
+
+
+
+
+/*========================================
+=            MIN-WIDTH 1280px            =
+========================================*/
+
+@media screen and (min-width: 1280px) {
+
+}
+
+/*-----  End of MIN-WIDTH 1280px  ------*/
+
+
+
+
+/*========================================
+=            MIN-WIDTH 1440px            =
+========================================*/
+
+@media screen and (min-width: 1440px) {
+
+}
+
+/*-----  End of MIN-WIDTH 1440px  ------*/
+
+
+
+
+
+
+

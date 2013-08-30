@@ -1,0 +1,85 @@
+
+/*================================
+=            STANDARD            =
+================================*/
+
+
+.theHeader h1 {
+	margin-top: 0;
+	text-align: center;
+	font-family: $lobster;
+	color: $textColor;
+	text-shadow: 2px 2px $myLightBrown;
+	padding-top: 20px;
+	font-size: 40px;
+}
+
+/*-----  End of STANDARD  ------*/
+
+
+
+
+/*=======================================
+=            MIN-WIDTH 768px            =
+=======================================*/
+
+@media screen and (min-width: 768px) {
+
+	.theHeader h1 {
+		font-size: 50px;
+	}
+
+}
+
+/*-----  End of MIN-WIDTH 768px  ------*/
+
+
+
+
+/*=======================================
+=            MIN-WIDTH 58.75em            =
+=======================================*/
+
+@media screen and (min-width: 58.75em) {
+
+	.theHeader h1 {
+		font-size: 65px;
+	}
+}
+
+/*-----  End of MIN-WIDTH 58.75em  ------*/
+
+
+
+
+
+
+/*========================================
+=            MIN-WIDTH 1280px            =
+========================================*/
+
+@media screen and (min-width: 1280px) {
+
+}
+
+/*-----  End of MIN-WIDTH 1280px  ------*/
+
+
+
+
+/*========================================
+=            MIN-WIDTH 1440px            =
+========================================*/
+
+@media screen and (min-width: 1440px) {
+
+}
+
+/*-----  End of MIN-WIDTH 1440px  ------*/
+
+
+
+
+
+
+
